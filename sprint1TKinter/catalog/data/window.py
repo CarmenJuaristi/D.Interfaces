@@ -25,4 +25,5 @@ class MainWindow:
             # En esta línea con el label bind estamos pendientes de si el usuarios clickea sobre una celda con el botón izquierdo del ratón
             #  y con el cell = cell ... lo que hacemos es que ejecute la función on_button_clicked pasando como parámetro la celda actual
             # y por eso si pulsas la celda de The Las Of Us 1 remake no te va a aparecer el titulo de Uncharted 4.
+            #
             label.bind("<Button-1>",lambda event, cell = cell: self.on_button_clicked(cell))
