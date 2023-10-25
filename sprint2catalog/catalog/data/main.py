@@ -1,6 +1,7 @@
 from tkinter import Tk
-from window import MainWindow
+from loadingWindow import loadingWindow
 if __name__ == "__main__":
+    loadingWindow
     root = Tk()
-    app = MainWindow(root)
+    app = loadingWindow(root)
     root.mainloop()
