@@ -1,0 +1,27 @@
+[
+{
+"name": "The Last Of Us 1 Remake",
+"description": "En un mundo postapocalíptico en el que los infectados, antiguos humanos extremadamente agresivos y convertidos en criaturas salvajes por un hongo mutante, vagan por el mundo, el curtido superviviente Joel deberá guiar a Ellie, una adolescente, fuera de la zona de cuarentena militar. La misión se convierte en un angustioso viaje a través de unos Estados Unidos devastados, mientras Joel hace todo lo que puede para mantenerla con vida.",
+"image_url": "https://github.com/CarmenJuaristi/D.Interfaces/blob/main/TLOU%201.jpg?raw=true"
+},
+{
+"name": "The Last Of Us 2",
+"description": "Cinco años después de su peligroso viaje a través de unos Estados Unidos pospandemia, Ellie y Joel logran establecerse en Jackson, Wyoming. Vivir entre una próspera comunidad de sobrevivientes les ha concedido paz y estabilidad, a pesar de la amenaza constante de los infectados y de otros sobrevivientes más desesperados. Cuando un evento traumático interrumpe esa paz, Ellie se embarca en un viaje incesante para obtener justicia y llegar a un cierre. A medida que caza a los responsables uno por uno, deberá enfrentarse a las devastadoras repercusiones físicas y emocionales de sus acciones.",
+"image_url": "https://github.com/CarmenJuaristi/D.Interfaces/blob/main/TLOU2.jpg?raw=true"
+},
+{
+"name": "Resident Evil 4 Remake",
+"description":"Seis años después de los eventos de Resident Evil 2, el sobreviviente de Raccoon City, Leon Kennedy, se encuentra apostado en un recóndito pueblo de Europa para investigar la desaparición de la hija del presidente de los Estados Unidos. Lo que descubre allí no se parece a nada que haya enfrentado antes.",
+"image_url": "https://github.com/CarmenJuaristi/D.Interfaces/blob/main/RE%204.jpg?raw=true"
+},
+{
+"name": "Uncharted 4",
+"description": "Tres años después de los eventos de  UNCHARTED 3: La traición de Drake, se supone que Nathan Drake se retiró del mundo de los cazafortunas. Sin embargo, el destino no tarda en golpear su puerta cuando su hermano Sam reaparece en busca de ayuda para salvar su propia vida, una aventura demasiado tentadora e irresistible para Drake.",
+"image_url": "https://github.com/CarmenJuaristi/D.Interfaces/blob/main/Uncharted4.jpg?raw=true"
+},
+{
+"name": "Call of Dutty Black Ops 2",
+"description": "El argumento inicia en los años 80 durante la Guerra Fría, esto con el fin de centrarse en el origen de la historia del principal antagonista de Black Ops II, Raúl Menéndez; que, en 2025, es él quien provoca la guerra entre China y EE. UU. En la línea temporal de 1980, el protagonista es Alex Mason, quien también lo era en Black Ops. Frank Woods, otro de los personajes de Black Ops, vuelve a este argumento y es además el narrador de la línea temporal de 1980. En la sección de este año el protagonista será David Mason",
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/CD%20BO%202.jpg"
+}  
+]
