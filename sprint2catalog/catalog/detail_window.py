@@ -1,5 +1,6 @@
 import tkinter as tk 
 from tkinter import ttk
+from cell import Cell
 class DetailWindow:
     def __init__ (self,root,title,image,description):
         self.root = root
@@ -15,3 +16,18 @@ class DetailWindow:
         title_label.pack()
         description_label = ttk.Label(self.window, text = self.description, wraplength= 300)
         description_label.pack()
+
+    def mostrarDetalles(cell):
+        root = tk.Toplevel()
+        root.title(cell.nombre)
+        mostrarl = ttk.Label(root, image = cell.image_tk)
+        mostrarl.pack()
+        mostrarl2 = ttk.Label(root, text = cell.descripcion)
+        mostrarl2.pack()
+        #Aquí vamos a centrar la imagen
+        x = (root.winfo_screenwidth() - root.winfo_reqwidth()) /2 
+        y = (root.winfo_screenheight() - root.winfo_reqheight()) /2
+        root.geometry(f"+{int(x)}+{int(y)}")
+        # Aquí lannzaremos la ventana detallada
+        root.mainloop() 
+    

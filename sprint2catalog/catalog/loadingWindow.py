@@ -60,10 +60,10 @@ class loadingWindow:
             self.finished=True
     
     # Aquí comprobamos que la descarga esté bien
-    def check_thread(self, root): 
+    def check_thread(self): 
         if self.finished:
             self.root.destroy()
-            root.launch_main_window(self.json_data)
+            launch_main_window(self.json_data)
         else:
             self.root.after(100, self.check_thread)
 
@@ -73,4 +73,7 @@ def launch_main_window(json_data, root):
     # Y aquí lanzamos la principal
     root.app = MainWindow(root, json_data) 
     root.mainloop()
-    
+    # Aquí vamos a centrar la imagen
+    x = (root.winfo_screenwidth() - root.winfo_reqwidth()) /2 
+    y = (root.winfo_screenheight() - root.winfo_reqheight()) /2
+    root.geometry(f"+{int(x)}+{int(y)}") 

@@ -31,5 +31,5 @@ class MainWindow:
             #  y con el cell = cell ... lo que hacemos es que ejecute la función on_button_clicked pasando como parámetro la celda actual
             # y por eso si pulsas la celda de The Las Of Us 1 remake no te va a aparecer el titulo de Uncharted 4.
             #
-            label.bind("<Button-1>",lambda event, cell = cell: self.on_button_clicked(cell))
+            label.bind("<Button-1>",lambda event, cell = cell: self.mostrarDetalles(cell))
         
