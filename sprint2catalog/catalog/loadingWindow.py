@@ -60,17 +60,17 @@ class loadingWindow:
             self.finished=True
     
     # Aquí comprobamos que la descarga esté bien
-    def check_thread(self): 
+    def check_thread(self, root): 
         if self.finished:
             self.root.destroy()
-            launch_main_window(self.json_data)
+            root.launch_main_window(self.json_data)
         else:
             self.root.after(100, self.check_thread)
 
 # Aquí lanzamos el main
-def launch_main_window(json_data):
+def launch_main_window(json_data, root):
     root = tk.Tk()
     # Y aquí lanzamos la principal
-    app = MainWindow(root, json_data) 
+    root.app = MainWindow(root, json_data) 
     root.mainloop()
     
