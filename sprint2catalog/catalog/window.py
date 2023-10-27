@@ -4,7 +4,7 @@ import requests
 from PIL import Image, ImageTk 
 import tkinter as tk
 from cell import Cell
-from tkinter import messagebox
+from tkinter import messagebox, Canvas, Frame, Label, Tk, ttk
 from detail_window import DetailWindow
 class MainWindow:
     cells = []

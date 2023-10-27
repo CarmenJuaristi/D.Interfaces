@@ -8,4 +8,5 @@ if __name__ == "__main__":
     y = (root.winfo_screenheight() - root.winfo_reqheight()) /2
     root.geometry(f"+{int(x)}+{int(y)}") 
     app = loadingWindow(root)
+    
     root.mainloop()

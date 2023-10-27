@@ -70,10 +70,20 @@ class loadingWindow:
 # Aquí lanzamos el main
 def launch_main_window(json_data, root):
     root = tk.Tk()
+    #Crearemos el menú de ayuda
+    barra_ayuda = tk.Menu()
+    menu_ayuda = tk.Menu(barra_ayuda, tearoff= False)
+    #Crearemos el despliegue de acerca de 
+    menu_ayuda.add_command( label="Acerca de", command=acerca_de)
+    barra_ayuda.add_cascade(menu=menu_ayuda, label="Ayuda")
+    root.config(menu=barra_ayuda)
     # Y aquí lanzamos la principal
     root.app = MainWindow(root, json_data) 
-    root.mainloop()
+    
     # Aquí vamos a centrar la imagen
     x = (root.winfo_screenwidth() - root.winfo_reqwidth()) /2 
     y = (root.winfo_screenheight() - root.winfo_reqheight()) /2
     root.geometry(f"+{int(x)}+{int(y)}") 
+    root.mainloop()
+def acerca_de():
+    messagebox.showinfo(message="Acerca del desarrollador", title="Acerca de")
