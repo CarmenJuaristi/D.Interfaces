@@ -54,7 +54,7 @@ class loadingWindow:
     
     #Aquí será donde en el siguiente ejercicio descarguemos el json
     def fetch_json_data(self): 
-        response = requests.get("json_alojado_en_GitHub")
+        response = requests.get("https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/catalog.json")
         if response.status_code == 200:
             self.json_data = response.json()
             self.finished=True
