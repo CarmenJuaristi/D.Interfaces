@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="261dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:text="Título"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/Imagen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Imagen"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/Titulo">
+
+        <ImageView
+            android:layout_width="212dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ejemplo_imagen" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Descripcion"
+        android:layout_width="322dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="148dp"
+        android:text="La marca de tabaco más vendida en España es Marlboro, con unas ventas que en 2022 fueron superiores a los 1.300 millones de euros. Un ranking en el que se ha mantenido estable como líder, y en el que competía con la marca española Fortuna a inicios de los 2000. Desde 2010, sin embargo, Fortuna ha ido cayendo puestos y Camel es ahora la que figura como competidora más próxima a la marca estadounidense.
+Un mercado capitaneado por Philipp Morris
+Marlboro es líder en la industria tabaquera"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/Imagen"
+        app:layout_constraintTop_toBottomOf="@+id/Titulo" />
+
+    <Button
+        android:id="@+id/Boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Me gusta"
+        app:layout_constraintStart_toStartOf="@+id/Descripcion"
+        app:layout_constraintTop_toBottomOf="@+id/Descripcion" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
