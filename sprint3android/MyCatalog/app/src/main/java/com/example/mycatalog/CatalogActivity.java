@@ -1,32 +1,60 @@
 package com.example.mycatalog;
+import android.view.Menu;
+
+import com.google.android.material.snackbar.Snackbar;
+import com.google.android.material.navigation.NavigationView;
+
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.AppBarConfiguration;
+import androidx.navigation.NavigationUI;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
+import com.example.mycatalog.databinding.ActivityMainBinding;
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.snackbar.Snackbar;
 
 public class CatalogActivity extends AppCompatActivity {
-    //Aquí inicializamos las variables boton que es de tipo boton y context
-    private Button boton;
-    private Context context = this;
+private AppBarConfiguration mAppBarConfiguration;
+private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.catalog_activity);
-        //Aquí lo que hacemos es que la variable que inicializamos antes tenga las propiedades que pusimos en el xml, para ello
-        // usamos el findViewById y ponemor la id que le dimos en el xml
-        boton = findViewById(R.id.boton1);
-        // A partir de aquí lo que hacemos es que cuando el usuario pulse el botón se inicie la clase DetailActivity
-        boton.setOnClickListener(new View.OnClickListener() {
+       binding = ActivityMainBinding.inflate(getLayoutInflater());
+       setContentView(binding.getRoot());
+
+       setSupportActionBar(binding.appBarMain.toolbar);
+       binding.appBarMain.fab.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, DetailActivity.class);
-                context.startActivity(intent);
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG).setAction("Action",null).show();
             }
         });
+        DrawerLayout drawer = binding.drawerLayout;
+        NavigationView navigationView = binding.navView;
+        // Pasamos el ID de cada menú
+        mAppBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.nav_home, R.id.nav_gallery)
+                .setOpenableLayout(drawer)
+                .build();
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+        NavigationUI.setupWithNavController(navigationView, navController);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflamos  el menu
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+    @Override
+    public boolean onSupportNavigateUp() {
+        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
+                || super.onSupportNavigateUp();
     }
 }

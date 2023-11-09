@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Aqui lo que hacemos es crear el titulo en el que ponemos las características que se pidió en el enunciado-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="15dp"/>
-
+    <!--Aquí ponemos la foto, con un circulo (es decir una imagen por encima para que se vea circular) ya que es lo que pide el ejercicio-->
     <androidx.cardview.widget.CardView
         android:layout_width="200dp"
         android:layout_height="200dp"
@@ -30,6 +31,7 @@
             android:layout_height="200dp"
             android:src="@drawable/ejemplo_imagen" />
     </androidx.cardview.widget.CardView>
+    <!--Esto es la descripción-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -37,12 +39,18 @@
         android:layout_marginTop="40dp"
         android:id="@+id/Descripcion"
         android:layout_marginStart="10dp"
-        android:text="descripción"
+        android:text="
+            Seguimos con los versos perversos demuestro a todos que ejerzo
+            De chico raro, con descaro, hijo de Amparo y de un tuerto
+            Mi tío es Berto, no Romero, no Tomillo
+            Ver todos los días al primo pillo, que pillaba frío y no se abriga
+            Le suena la barriga, ¿diga?
+            Hello, I'm your belly, can you give me some comida?"
         android:layout_marginEnd="10dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:textAlignment="center"/>
-
+    <!--Esto es el boton de me gusta -->
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

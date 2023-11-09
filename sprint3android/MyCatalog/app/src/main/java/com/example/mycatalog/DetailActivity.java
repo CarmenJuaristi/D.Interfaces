@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 
 public class DetailActivity extends AppCompatActivity {
+    //Aquí visualizamos la ventana de detail_Activity; es decir, el contenido del xml.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
