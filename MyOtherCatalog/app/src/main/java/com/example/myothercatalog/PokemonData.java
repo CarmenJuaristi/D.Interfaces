@@ -19,7 +19,7 @@ public class PokemonData {
     public PokemonData (JSONObject json){
         try{
             this.name = json.getString ("name");
-            this.imageUrl = json.getString("imageUrl");
+            this.imageUrl = json.getString("image_url");
         }catch (JSONException e){
             e.printStackTrace();
         }

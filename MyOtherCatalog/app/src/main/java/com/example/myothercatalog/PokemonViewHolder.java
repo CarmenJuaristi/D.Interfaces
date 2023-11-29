@@ -17,18 +17,12 @@ public class PokemonViewHolder extends RecyclerView.ViewHolder{
     private final TextView textView;
     private final ImageView imageView;
     private Button button;
+    private PokemonData data;
     public PokemonViewHolder (@NonNull View itemView){
         super(itemView);
         textView = (TextView) itemView.findViewById(R.id.pokemon_name_text_view);
         imageView = (ImageView) itemView.findViewById(R.id.pokemon_image_view);
-        button = itemView.findViewById(R.id.button);
-    }
-    public void showData(PokemonData data, Activity activity){
-        textView.setText(data.getName());
-        Glide.with(itemView.getContext())
-                .load(data.getImageUrl())
-                .into (imageView);
-        button.setOnClickListener(new View.OnClickListener() {
+        itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Context context = view.getContext();
@@ -40,5 +34,13 @@ public class PokemonViewHolder extends RecyclerView.ViewHolder{
             }
         });
     }
+    public void showData(PokemonData data, Activity activity) {
+        textView.setText(data.getName());
+        Glide.with(itemView.getContext())
+                .load(data.getImageUrl())
+                .into(imageView);
+    }
 
-}
+    }
+
+

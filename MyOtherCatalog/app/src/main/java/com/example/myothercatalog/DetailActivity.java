@@ -17,8 +17,8 @@ public class DetailActivity  extends AppCompatActivity {
         Intent intent = getIntent();
         String textView = intent.getStringExtra("textView");
         String imageView = intent.getStringExtra("imageView");
-        nombre = findViewById(R.id.textViewPokemon);
-        imagen = findViewById(R.id.imageViewPokemon);
+        nombre = findViewById(R.id.name);
+        imagen = findViewById(R.id.imagen);
         nombre.setText(textView);
         Util.downloadBitmapToImageView(imageView, this.imagen);
 
