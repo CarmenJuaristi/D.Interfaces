@@ -1,0 +1,51 @@
+[
+{
+"name": "Bulbasaur",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Bulbasaur.png?raw=true"
+},
+{
+"name": "Ivysaur",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Ivysaur.png?raw=true"
+},
+{
+"name": "Venosaur",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Venusaur.png?raw=true"
+},
+{
+"name": "Charmander",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charmander.png?raw=true"
+},
+{
+"name": "Charmeleon",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charmeleon.png?raw=true"
+},
+{
+"name": "Charizard",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charizard.png?raw=true"
+},
+{
+"name": "Squirtle",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Squirtle.png?raw=true"
+},
+{
+"name": "Wartortle",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Wartortle.png?raw=true"
+},
+{
+"name": "Blastoise",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Blastoise.png?raw=true"
+},{
+"name": "Eevee",
+
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Eevee.png?raw=true"
+},
+]
