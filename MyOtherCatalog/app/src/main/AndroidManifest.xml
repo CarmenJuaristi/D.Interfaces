@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+    <!-- Si queremos que se abra la clase al darle al botón, antes debemos declararla en el manifest.-->
+        <activity android:name=".DetailActivity"/>
     </application>
 
 </manifest>

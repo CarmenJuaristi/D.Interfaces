@@ -5,14 +5,14 @@ import org.json.JSONObject;
 
 public class PokemonData {
     private String name;
-    private String imageUrl;
+    private  String imageUrl;
 
     public PokemonData(String name, String imageUrl){
         this.name = name;
         this.imageUrl = imageUrl;
     }
     public String getName() {return name;}
-    public String getImageUrl() {return imageUrl;}
+    public  String getImageUrl() {return imageUrl;}
 
     public PokemonData (JSONObject json){
         try{
