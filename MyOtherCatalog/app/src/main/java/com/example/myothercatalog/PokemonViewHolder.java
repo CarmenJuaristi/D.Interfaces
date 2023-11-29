@@ -34,7 +34,8 @@ public class PokemonViewHolder extends RecyclerView.ViewHolder{
                 Context context = view.getContext();
 
                 Intent intent = new Intent(context, DetailActivity.class);
-
+                intent.putExtra("textView", data.getName());
+                intent.putExtra("imageView", data.getImageUrl());
                 context.startActivity(intent);
             }
         });
