@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo que tendrá la aplicación -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- El color del fondo -->
+        <item name="android:windowBackground">@color/colorFondo</item>
+    </style>
+
+    <!-- Estilo que tendrá el texto -->
+    <style name="EstiloTexto">
+        <!-- Modificar el color del texto -->
+        <item name="android:textColor">@color/colorTexto</item>
+    </style>
+
+    <!-- Estilo que tendrán los botones -->
+    <style name="EstiloBoton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorTexto</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+</resources>
