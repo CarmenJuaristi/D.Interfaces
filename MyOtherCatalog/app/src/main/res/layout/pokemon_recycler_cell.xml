@@ -14,7 +14,7 @@
         android:id="@+id/textViewPokemon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        style="@style/EstiloTexto"
+        style="@style/EstiloTitulo"
         app:layout_constraintTop_toTopOf="@+id/imageViewPokemon"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewPokemon"
         app:layout_constraintStart_toEndOf="@+id/imageViewPokemon"

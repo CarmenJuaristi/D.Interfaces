@@ -6,17 +6,22 @@
         <item name="android:windowBackground">@color/colorFondo</item>
     </style>
 
-    <!-- Estilo que tendrá el texto -->
-    <style name="EstiloTexto">
-        <!-- Modificar el color del texto -->
-        <item name="android:textColor">@color/colorTexto</item>
+    <!-- Estilo que tendrá el título -->
+    <style name="EstiloTitulo">
+        <item name="android:textSize">25sp</item> <!-- Tamaño del texto -->
+        <item name="android:textColor">@color/colorTitulo</item> <!-- Color del texto -->
+        <item name="android:textStyle">bold</item> <!-- Negrita -->
     </style>
 
     <!-- Estilo que tendrán los botones -->
     <style name="EstiloBoton" parent="Widget.AppCompat.Button">
-        <item name="android:background">@color/colorTexto</item>
-        <item name="android:layout_width">50dp</item>
-        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@color/colorBoton</item>
+        <!-- Color y tamaño del texto del botón -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <!-- Anchura y altura del botón -->
+        <item name="android:layout_width">35dp</item>
+        <item name="android:layout_height">35dp</item>
     </style>
 
 </resources>
