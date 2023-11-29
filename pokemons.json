@@ -2,50 +2,50 @@
 {
 "name": "Bulbasaur",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Bulbasaur.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Bulbasaur.jpg"
 },
 {
 "name": "Ivysaur",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Ivysaur.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Ivysaur.jpg"
 },
 {
 "name": "Venosaur",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Venusaur.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Venusaur.jpg"
 },
 {
 "name": "Charmander",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charmander.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charmander.jpg"
 },
 {
 "name": "Charmeleon",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charmeleon.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charmeleon.jpg"
 },
 {
 "name": "Charizard",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charizard.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Charizard.jpg"
 },
 {
 "name": "Squirtle",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Squirtle.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Squirtle.jpg"
 },
 {
 "name": "Wartortle",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Wartortle.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Wartortle.jpg"
 },
 {
 "name": "Blastoise",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Blastoise.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Blastoise.jpg"
 },{
 "name": "Eevee",
 
-"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Eevee.png?raw=true"
+"image_url": "https://raw.githubusercontent.com/CarmenJuaristi/D.Interfaces/main/Eevee.jpg"
 },
 ]
